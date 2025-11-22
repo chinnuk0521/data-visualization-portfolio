@@ -82,6 +82,33 @@ A comprehensive collection of data visualization projects showcasing various ana
 
 ---
 
+### 5. Global Unemployment Analytics
+**Location:** `project_5_global_unemployment_analytics/`
+
+**Largest and most comprehensive project** - Advanced global unemployment analysis using real-world data from World Bank, ILO, or Kaggle. Features **14 complex, multi-dimensional visualizations** including world overview, global trends, regional comparisons, pandemic impact, predictive forecasting, volatility analysis, and advanced correlation matrices. This is the most extensive project in the portfolio.
+
+**Files:**
+- `global_unemployment_analytics.py` - Advanced analytics script (1400+ lines)
+- `download_unemployment_data.py` - Data download helper script
+- `dataset_unemployment.csv` - Global unemployment dataset (to be downloaded from World Bank/Kaggle)
+- `exports/` - **14 comprehensive visualizations:**
+  - `1_world_unemployment_overview.png` - World overview with country rankings
+  - `2_global_trends_dashboard.png` - Global and regional trends
+  - `3_regional_comparison_analysis.png` - Regional statistics and comparisons
+  - `4_country_performance_analysis.png` - Country-level performance analysis
+  - `5_temporal_patterns_analysis.png` - Temporal patterns and decade analysis
+  - `6_statistical_summary.png` - Statistical summary and distributions
+  - `7_comprehensive_heatmaps.png` - Multi-dimensional heatmap matrices
+  - `8_comprehensive_statistical_summary.png` - Executive summary dashboard
+  - `9_pandemic_impact_analysis.png` - COVID-19 impact analysis
+  - `10_predictive_trends.png` - Forecasting and trend projection
+  - `11_volatility_stability_analysis.png` - Volatility and stability metrics
+  - `12_country_clustering.png` - Country clustering and grouping
+  - `13_change_analysis.png` - Improvement and worsening analysis
+  - `14_correlation_analysis.png` - Advanced correlation matrices
+
+---
+
 ## Structure
 
 ```
@@ -108,4 +135,10 @@ data-visualization-portfolio/
     ├── dataset_enterprise.csv
     └── exports/
         └── [11 advanced visualizations]
+└── project_5_global_unemployment_analytics/
+    ├── global_unemployment_analytics.py
+    ├── download_unemployment_data.py
+    ├── dataset_unemployment.csv (to be downloaded)
+    └── exports/
+        └── [14 advanced visualizations]
 ```
